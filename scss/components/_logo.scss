@@ -1,0 +1,29 @@
+/* logo */
+.logo__black,
+.logo__white,
+.logo__first {
+    font-family: var(--font-second);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.logo__black {
+    color: var(--color-accent1);
+}
+
+
+.logo__white {
+    color: var(--color-accent0);
+}
+
+.logo__first {
+    color: var(--color-link);
+}
+
+.logo {
+    margin-right: 93px;
+    align-items: center;
+
+}
