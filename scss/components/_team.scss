@@ -1,43 +1,40 @@
 .team {
     background-color: var(--color-back-button);
-}
 
-.team__inner {
-    display: flex;
-    justify-content: space-between;
-}
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
 
-.team__title {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    margin-top: 30px;
-    margin-bottom: 10px;
-}
+    &__title {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
 
-.team__item {
-    margin-right: 30px;
-    padding-bottom: 30px;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
-        0px 1px 1px rgba(0, 0, 0, 0.14),
-        0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
-    background-color: var(--color-accent0);
-}
+    &__item {
+        margin-right: 30px;
+        padding-bottom: 30px;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+            0px 1px 1px rgba(0, 0, 0, 0.14),
+            0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+        background-color: var(--color-accent0);
 
-.team__item:last-child {
-    margin-right: 0;
-}
+        &:last-child {
+            margin-right: 0;
+        }
+    }
 
-.team__text {
-    font-size: 16px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    margin-bottom: 16px;
-}
-
-.team__text,
-.team__title {
-    text-align: center;
+    &__text {
+        font-size: 16px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        margin-bottom: 16px;
+        text-align: center;
+    }
 }

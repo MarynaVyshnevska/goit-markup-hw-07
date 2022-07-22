@@ -12,20 +12,19 @@
     align-items: center;
     justify-content: center;
     background-color: var(--color-accent0);
-}
 
-.close-button__icon {
-    width: 11px;
-    height: 11px;
-    fill: var(--color-accent1);
+    &__icon {
+        width: 11px;
+        height: 11px;
+        fill: var(--color-accent1);
 
-    transition-property: fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-property: fill;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
 
-}
-
-.close-button:hover .close-button__icon,
-.close-button:focus .close-button__icon {
-    fill: var(--color-link);
+    &:hover &__icon,
+    &:focus &__icon {
+        fill: var(--color-link);
+    }
 }

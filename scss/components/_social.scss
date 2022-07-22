@@ -1,54 +1,20 @@
 // social button 
 
 .social {
-    display: flex;
-    justify-content: center;
-}
-
-.social__icon {
-    width: 20px;
-    height: 20px;
-    fill: var(--color-clients);
-
-    transition-property: fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-}
-
-.social__button {
-
-    padding: 0;
-    border: 0;
-    background-color: var(--color-accent0);
-    border-radius: 50%;
-    width: 44px;
-    height: 44px;
-    display: flex;
-    align-items: center;
     justify-content: center;
 
-    transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+    &__icon {
+        fill: var(--color-clients);
+        transition-property: fill;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
 
-.social__item {
+    &__button {
+        background-color: var(--color-accent0);
 
-    margin-right: 10px;
-
-}
-
-.social__button:last-child {
-    margin-right: 0;
-}
-
-.social__button:hover,
-.social__button:focus {
-    background-color: var(--color-link);
-}
-
-.social__button:hover .social__icon,
-.social__button:focus .social__icon {
-    fill: var(--color-accent0);
+        transition-property: background-color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
 }
